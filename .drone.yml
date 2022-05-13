@@ -1,18 +1,1 @@
 kind: pipeline
-name: default
-
-steps:
-  - name: write
-    image: alpine
-    commands:
-      - echo -n "this-is-a-test" > .tags
-      
-  - name: read
-    image: alpine
-    commands:
-      - echo -n "this-is-a-test" > .tags
-      
-  - name: update
-    image: alpine
-    commands:
-      - echo -n "this-is-a-test" > .tags
